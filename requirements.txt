@@ -1,0 +1,2 @@
+cryptography>=41
+xxhash>=3.0

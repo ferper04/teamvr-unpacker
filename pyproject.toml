@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "teamvr-unpack"
+version = "0.2.0"
+description = "Static unpacker/analyser for Inno Setup 6.3.x and 6.4.x installers, including the modified Team V.R variants"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = ["cryptography>=41", "xxhash>=3.0"]
+
+[project.scripts]
+teamvr-unpack = "teamvr_unpack.cli:main"
+
+[tool.setuptools]
+packages = ["teamvr_unpack"]

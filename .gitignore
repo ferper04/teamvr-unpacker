@@ -1,0 +1,13 @@
+__pycache__/
+.pytest_cache/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv/
+# never commit samples or extracted output
+*.exe
+*.dll
+*.e32
+out/
+samples/
